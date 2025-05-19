@@ -49,4 +49,15 @@ docker logs -f microservice-persons
 docker logs -f microservice-accounts
 ```
 
+## Rutas documentación con Swagger
+### Las urls para acceder a la documentación de los microservicios son:
 
+* Microservicio Persons
+```bash
+http://localhost:8001/swagger
+```
+
+* Microservicio Accounts
+```bash
+http://localhost:8002/swagger
+```
